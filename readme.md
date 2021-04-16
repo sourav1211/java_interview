@@ -1,4 +1,4 @@
-# Java Interview Question and Answer (By Fazle Rabbi)
+# Java Interview Question and Answer
 #### 1. What is Serialization and deserialization ?</br>
 **Answer:** 
 Serialization is a mechanism of converting the state of an object into a byte stream file on a file or any local memory or database.
