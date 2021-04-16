@@ -1,8 +1,8 @@
 # Java Interview Question and Answer
-####1. What is Serialization and deserialization ?
+#### 1. What is Serialization and deserialization ?<br>
 **Answer:**
 
-####2. Polymorphism  in java ? How can we achieve Polymorphism  ?
+#### 2. Polymorphism  in java ? How can we achieve Polymorphism  ?<br>
 **Answer:**
 Polymorphism is a one of the most important concept of Java OOP.<br>
 This concept help to use a method in multiple way.<br>
