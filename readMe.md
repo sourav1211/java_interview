@@ -1,2 +1,0 @@
-# Java Interview Project
-ok
