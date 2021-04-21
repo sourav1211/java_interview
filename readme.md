@@ -22,5 +22,16 @@ There are 2 kinds of Polymorphism:
 3. Volatile Modifiers : Volatile keyword use in a multithreading environment. Volatile keyword is used to flush changes directly to the main memory.
 <br>**HandsOn Reference:** https://github.com/sourav1211/java_interview/tree/main/src/Synchronization
 ***************************************
+#### 4. Singleton pattern in java ? Types of singleton ? and How can we achieve that ?</br>
+**Answer:** 
+We can call a class as singleton  if all the property of that class became constant. To make a class singleton, make constructor private. Singleton pattern can create only one instance at a time.<br>
+There are 4 kinds of single  
+1. Lazy Instantiation  : Synchronization is a capacity to control the access of multiple threads to any shared resource. **Synchronized** keyword use only method level. Its ensure to access a shared resource by only one thread at a time.    
+2. Eager : During Serialization if any variable need to prevent to serializing then we can use Transient. During byte stream creating the process avoit to serializing the Transient marked variable.   
+3. Synchronized : synchronized makes sure that only one thread at a time can execute getInstance() .
+4. Double Click Locking  : If you notice carefully once an object is created synchronization is no longer useful because now obj will not be null and any sequence of operations will lead to consistent results. .
+<br>**HandsOn Reference:** https://github.com/sourav1211/java_interview/tree/main/src/Synchronization
+***************************************
+
 
 
