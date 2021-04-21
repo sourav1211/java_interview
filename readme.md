@@ -30,7 +30,7 @@ There are 4 kinds of single
 2. Eager : During Serialization if any variable need to prevent to serializing then we can use Transient. During byte stream creating the process avoit to serializing the Transient marked variable.   
 3. Synchronized : synchronized makes sure that only one thread at a time can execute getInstance() .
 4. Double Click Locking  : If you notice carefully once an object is created synchronization is no longer useful because now obj will not be null and any sequence of operations will lead to consistent results. .
-<br>**HandsOn Reference:** https://github.com/sourav1211/java_interview/tree/main/src/Synchronization
+<br>**HandsOn Reference:** https://github.com/sourav1211/java_interview/tree/main/src/Singleton
 ***************************************
 
 
