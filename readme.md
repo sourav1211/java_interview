@@ -27,10 +27,18 @@ There are 2 kinds of Polymorphism:
 We can call a class as singleton  if all the property of that class became constant. To make a class singleton, make constructor private. Singleton pattern can create only one instance at a time.<br>
 There are 4 kinds of single  
 1. Lazy Instantiation  : Synchronization is a capacity to control the access of multiple threads to any shared resource. **Synchronized** keyword use only method level. Its ensure to access a shared resource by only one thread at a time.    
-2. Eager : During Serialization if any variable need to prevent to serializing then we can use Transient. During byte stream creating the process avoit to serializing the Transient marked variable.   
+2. Eager :    
 3. Synchronized : synchronized makes sure that only one thread at a time can execute getInstance() .
 4. Double Click Locking  : If you notice carefully once an object is created synchronization is no longer useful because now obj will not be null and any sequence of operations will lead to consistent results. .
 <br>**HandsOn Reference:** https://github.com/sourav1211/java_interview/tree/main/src/Singleton
+***************************************
+#### 5. Difference  between factory and abstract factory pattern ?</br>
+**Answer:** 
+We can call a class as singleton  if all the property of that class became constant. To make a class singleton, make constructor private. Singleton pattern can create only one instance at a time.<br>
+There are 4 kinds of single  
+1. Factory Pattern  : In Factory pattern, we create object without exposing the creation logic to the client and refer to newly created object using a common interface.    
+2. Abstract factory pattern : Abstract Factory Pattern says that just define an interface or abstract class for creating families of related (or dependent) objects but without specifying their concrete sub-classes. That means Abstract Factory lets a class returns a factory of classes.
+<br>**HandsOn Reference:** 
 ***************************************
 
 
